@@ -73,6 +73,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 1024.5, y: -106}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -95,6 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 113.100006, y: -132.6}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -178,6 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248e06f3b7a27d4499c7e4eee5a23843, type: 3}
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -378.5, y: -191}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -199,6 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248e06f3b7a27d4499c7e4eee5a23843, type: 3}
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -361.5, y: 92}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -279,6 +287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248e06f3b7a27d4499c7e4eee5a23843, type: 3}
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -351.5, y: 391}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -492,6 +502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 167.5, y: 402}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -573,6 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d6a368c39a5c140ad85d065dc499cf, type: 3}
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 193.59991, y: -728.20013}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -747,6 +761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 1023.5, y: 156}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -769,6 +785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed27bae6a3947364193a3e1558f691e8, type: 3}
   m_Name: Dialog with Options Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 518.5, y: -106}
   dynamicConnectionPorts:
   - {fileID: 114536095756769812}
@@ -817,6 +835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 2078.8, y: 124.200005}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1054,6 +1074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 039d2c5c84d9bf0489aecb2b0b669362, type: 3}
   m_Name: Example Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 654.69995, y: -1152.8002}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1070,6 +1092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 2077.6, y: 397.80002}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1231,6 +1255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b10f04280dcb14a40bbcd4ae5599e365, type: 3}
   m_Name: Resizing Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -212.70004, y: -1126.2001}
   dynamicConnectionPorts:
   - {fileID: 114229562051832690}
@@ -1255,6 +1281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d6a368c39a5c140ad85d065dc499cf, type: 3}
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 78.599945, y: -1153.4001}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1272,6 +1300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 2612.8, y: 164.99998}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1472,6 +1502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d6a368c39a5c140ad85d065dc499cf, type: 3}
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 403.4999, y: -955.40015}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1509,6 +1541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d6a368c39a5c140ad85d065dc499cf, type: 3}
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -130.00003, y: -720.0002}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1565,6 +1599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed27bae6a3947364193a3e1558f691e8, type: 3}
   m_Name: Dialog with Options Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: -117.10007, y: -483.80017}
   dynamicConnectionPorts:
   - {fileID: 114845416021733128}
@@ -1647,6 +1683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e34d810789ca2146b9e148bc4a223bb, type: 3}
   m_Name: Nulti Path Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 1509.6, y: -82.9}
   dynamicConnectionPorts:
   - {fileID: 114447666537681604}
@@ -1680,6 +1718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 1029.5, y: 411.5}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1702,6 +1742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 98.5, y: 109}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1841,6 +1883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8e00a3d3c91a4cbd303bf65049f72, type: 3}
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
+  cond: 0
+  tapType: 0
   position: {x: 2075.2002, y: -135}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}

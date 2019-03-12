@@ -2,11 +2,30 @@ using UnityEngine;
 using System;
 using System.Linq;
 using System.Collections.Generic;
-
+using UnityEditor;
 namespace NodeEditorFramework
 {
 	public abstract partial class Node : ScriptableObject
 	{
+		public enum Cond
+		{
+			None,
+			Instance,
+			WaitSeconds,
+			WaitMinutes,
+			ControlByTask,
+		}
+		public enum TapType
+		{
+			None,
+			Continus,
+			UnContinus,
+			Fear,
+			Last,
+		}
+		public Cond cond;
+		public int condParam;
+		public TapType tapType;
 		public Vector2 position;
 		private Vector2 autoSize;
 		public Vector2 size { get { return AutoLayout? autoSize : DefaultSize; } }
@@ -290,12 +309,16 @@ namespace NodeEditorFramework
 			GUI.color = Color.white;
 			bodyRect.position = Vector2.zero;
 			GUILayout.BeginArea (bodyRect);
-
 			// Call NodeGUI
 			GUI.changed = false;
 			if (GUILayout.Button ("Clear All Connect")) {
 				DeleteAllPorts ();
 			}
+			GUILayout.BeginHorizontal ();
+			cond = (Cond)EditorGUILayout.EnumPopup (cond);
+			condParam = EditorGUILayout.IntField (condParam);
+			GUILayout.EndHorizontal ();
+			tapType = (TapType)EditorGUILayout.EnumPopup (tapType);
 			NodeGUI ();
 
 			if(Event.current.type == EventType.Repaint)
