@@ -17,9 +17,9 @@ public class ChatNodeBase : Node
 	public override string Title { get { return "Chat Node Base"; } }
 	public override Vector2 DefaultSize { get { return new Vector2 (200, 180); } }
 
-	[ValueConnectionKnob("Input", Direction.In, "Float")]
+	[ValueConnectionKnob("Input", Direction.In, "System.String")]
 	public ValueConnectionKnob inputKnob;
-	[ValueConnectionKnob("Output", Direction.Out, "Float")]
+	[ValueConnectionKnob("Output", Direction.Out, "System.String")]
 	public ValueConnectionKnob outputKnob;
 	private Vector2 scroll;
 	[FormerlySerializedAs("WhatTheCharacterSays")]

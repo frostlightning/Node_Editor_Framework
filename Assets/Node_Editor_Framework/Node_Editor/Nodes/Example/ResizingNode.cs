@@ -44,7 +44,7 @@ namespace NodeEditorFramework.Standard
 			for (int i = 0; i < labels.Count; i++)
 			{ // Display label and delete button
 				GUILayout.BeginHorizontal();
-				GUILayout.Label(labels[i]);
+				labels[i] = GUILayout.TextField(labels[i]);
 				((ValueConnectionKnob)dynamicConnectionPorts[i]).SetPosition();
 				if(GUILayout.Button("x", GUILayout.ExpandWidth(false)))
 				{ // Remove current label
