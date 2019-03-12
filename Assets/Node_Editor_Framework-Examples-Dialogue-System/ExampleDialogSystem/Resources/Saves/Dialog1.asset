@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editorStates:
   - {fileID: 114036804819668936}
-  saveName: Dialog1
-  savePath: Assets/Plugins/ExampleDialogSystem/Resources/Saves/Dialog1.asset
+  saveName: Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Resources\Saves\Dialog1
+  savePath: Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Resources\Saves\Dialog1.asset
   livesInScene: 0
   nodes:
   - {fileID: 114430500195244242}

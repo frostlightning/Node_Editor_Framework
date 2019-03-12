@@ -77,7 +77,7 @@ namespace NodeEditorFramework
 		/// Specifies if this node handles recursive node loops on the canvas.
 		/// A loop requires atleast a single node to handle recursion to be permitted.
 		/// </summary>
-		public virtual bool AllowRecursion { get { return false; } }
+		public virtual bool AllowRecursion { get { return true; } }
 
 		/// <summary>
 		/// Specifies if calculation should continue with the nodes connected to the outputs after the Calculation function returns success
@@ -592,7 +592,12 @@ namespace NodeEditorFramework
 			if (dynamicPortIndex >= 0 && dynamicPortIndex < dynamicConnectionPorts.Count)
 				DeleteConnectionPort(dynamicConnectionPorts[dynamicPortIndex]);
 		}
-
+		public void DeleteAllPorts()
+		{
+			for (int i = 0; i < connectionPorts.Count; i++) {
+				connectionPorts[i].ClearConnections (true);
+			}
+		}
 		#endregion
 	}
 }
