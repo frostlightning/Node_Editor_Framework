@@ -293,6 +293,9 @@ namespace NodeEditorFramework
 
 			// Call NodeGUI
 			GUI.changed = false;
+			if (GUILayout.Button ("Clear All Connect")) {
+				DeleteAllPorts ();
+			}
 			NodeGUI ();
 
 			if(Event.current.type == EventType.Repaint)

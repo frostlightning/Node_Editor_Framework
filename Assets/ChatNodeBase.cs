@@ -26,9 +26,6 @@ public class ChatNodeBase : Node
 	public string DialogLine;
 	public override void NodeGUI () 
 	{
-		if (GUILayout.Button ("Clear All Connect")) {
-			DeleteAllPorts ();
-		}
 		// Display Float connections
 		GUILayout.BeginHorizontal ();
 		inputKnob.DisplayLayout ();

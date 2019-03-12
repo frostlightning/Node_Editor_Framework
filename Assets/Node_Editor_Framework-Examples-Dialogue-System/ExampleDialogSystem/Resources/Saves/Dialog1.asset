@@ -633,7 +633,7 @@ MonoBehaviour:
   body: {fileID: 114787256279978952}
   direction: 1
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections: []
   side: 4
   sidePosition: 49.1
@@ -800,7 +800,7 @@ MonoBehaviour:
   body: {fileID: 114688257423132840}
   direction: 1
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections:
   - {fileID: 114990427489498232}
   side: 4
@@ -881,7 +881,7 @@ MonoBehaviour:
   body: {fileID: 114309710926817994}
   direction: 1
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections: []
   side: 4
   sidePosition: 49.1
@@ -1243,6 +1243,7 @@ MonoBehaviour:
   - asdsad
   - asdasdsad
   - sdsdsad
+  inputKnob: {fileID: 0}
 --- !u!114 &114688257423132840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1394,7 +1395,7 @@ MonoBehaviour:
   body: {fileID: 114787256279978952}
   direction: 2
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections: []
   side: 2
   sidePosition: 49.1
@@ -1413,7 +1414,7 @@ MonoBehaviour:
   body: {fileID: 114774221418016170}
   direction: 1
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections:
   - {fileID: 114922855614857334}
   - {fileID: 114746644132502620}
@@ -1434,7 +1435,7 @@ MonoBehaviour:
   body: {fileID: 114688257423132840}
   direction: 2
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections:
   - {fileID: 114743334210027662}
   side: 2
@@ -1865,7 +1866,7 @@ MonoBehaviour:
   body: {fileID: 114309710926817994}
   direction: 2
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections:
   - {fileID: 114743334210027662}
   side: 2
@@ -1984,7 +1985,7 @@ MonoBehaviour:
   body: {fileID: 114774221418016170}
   direction: 2
   maxConnectionCount: 1
-  styleID: Float
+  styleID: System.String
   _connections:
   - {fileID: 114639721650357034}
   - {fileID: 114428341756002650}
