@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using NodeEditorFramework.Utilities;
-
+using UnityEditor;
 namespace NodeEditorFramework.Standard
 {
 	[Node(false, "Example/Resizing Node")]
@@ -11,7 +11,7 @@ namespace NodeEditorFramework.Standard
 		public override string GetID { get { return ID; } }
 
 		public override string Title { get { return "Resizing Node"; } }
-		public override Vector2 MinSize { get { return new Vector2(200, 10); } }
+		public override Vector2 MinSize { get { return new Vector2(240, 10); } }
 		public override bool AutoLayout { get { return true; } } // IMPORTANT -> Automatically resize to fit list
 
 		public List<string> labels = new List<string>();
@@ -43,7 +43,7 @@ namespace NodeEditorFramework.Standard
 			for (int i = 0; i < labels.Count; i++)
 			{ // Display label and delete button
 				GUILayout.BeginHorizontal();
-				labels[i] = GUILayout.TextField(labels[i]);
+				labels[i] = EditorGUILayout.TextField(labels[i]);
 				((ValueConnectionKnob)dynamicConnectionPorts[i]).SetPosition();
 				if(GUILayout.Button("x", GUILayout.ExpandWidth(false)))
 				{ // Remove current label
