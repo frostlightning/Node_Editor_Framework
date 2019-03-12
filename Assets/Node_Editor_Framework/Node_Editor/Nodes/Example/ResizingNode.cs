@@ -15,8 +15,8 @@ namespace NodeEditorFramework.Standard
 		public override bool AutoLayout { get { return true; } } // IMPORTANT -> Automatically resize to fit list
 
 		public List<string> labels = new List<string>();
-		private string newLabel = "";
-
+		[ValueConnectionKnob("Input", Direction.In, "System.String")]
+		public ValueConnectionKnob inputKnob;
 		private ValueConnectionKnobAttribute dynaCreationAttribute = new ValueConnectionKnobAttribute("Output", Direction.Out, "System.String");
 
 		public override void NodeGUI()
@@ -33,10 +33,10 @@ namespace NodeEditorFramework.Standard
 
 			// Display text field and add button
 			GUILayout.BeginHorizontal();
-			newLabel = RTEditorGUI.TextField(GUIContent.none, newLabel);
+			inputKnob.DisplayLayout ();
 			if (GUILayout.Button("Add", GUILayout.ExpandWidth(false)))
 			{
-				labels.Add(newLabel);
+				labels.Add("聊天选项");
 				CreateValueConnectionKnob(dynaCreationAttribute);
 			}
 			GUILayout.EndHorizontal();
