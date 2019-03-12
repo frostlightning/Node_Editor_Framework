@@ -28,8 +28,7 @@ namespace NodeEditorFramework.Standard
 				while (dynamicConnectionPorts.Count < labels.Count)
 					CreateValueConnectionKnob(dynaCreationAttribute);
 			}
-
-			GUILayout.Label("This node resizes to fit all inputs!");
+				
 
 			// Display text field and add button
 			GUILayout.BeginHorizontal();
