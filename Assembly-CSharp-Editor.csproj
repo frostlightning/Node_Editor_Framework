@@ -57,6 +57,7 @@
      <Compile Include="Assets\Node_Editor_Framework\Editor\Node_Editor\RTCanvasCalculatorEditor.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Editor\Node_Editor\RTNodeEditorInspector.cs" />
      <None Include="Assets\Node_Editor_Framework\Node_Editor\Resources\Shader\LineShader.shader" />
+     <None Include="Assets\Node Canvas.xml" />
      <None Include="Assets\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -138,6 +139,9 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/GitHub/Node_Editor_Framework/Assets/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

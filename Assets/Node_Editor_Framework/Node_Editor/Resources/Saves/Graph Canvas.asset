@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editorStates:
   - {fileID: 11432404}
-  saveName: Assets\Plugins\Node_Editor\Resources\Saves\Graph Canvas
-  savePath: Assets\Plugins\Node_Editor\Resources\Saves\Graph Canvas.asset
+  saveName: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Graph Canvas
+  savePath: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Graph Canvas.asset
   livesInScene: 0
   nodes:
   - {fileID: 11412686}
@@ -58,6 +58,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03bdfc59265fe45ac36abd01b51a31, type: 3}
   m_Name: Flow Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 900, y: 50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -249,12 +252,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4620fa9db0beb41b2d5e2bff1656c9, type: 3}
   m_Name: Graph Root Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 0, y: 0}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  flowChild1: {fileID: 11470155}
-  flowChild2: {fileID: 11424117}
-  flowChild3: {fileID: 11498947}
+  outputKnob: {fileID: 0}
 --- !u!114 &11413170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -307,7 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11415713}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Flow
   _connections:
   - {fileID: 11405738}
@@ -344,6 +348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03bdfc59265fe45ac36abd01b51a31, type: 3}
   m_Name: Flow Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 900, y: -150}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -364,7 +371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11403645}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11455454}
@@ -384,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11418187}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections: []
   side: 4
@@ -420,6 +427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03bdfc59265fe45ac36abd01b51a31, type: 3}
   m_Name: Flow Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 600, y: 300}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -631,7 +641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11453301}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Flow
   _connections:
   - {fileID: 11470155}
@@ -688,6 +698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dd50b389073b148b5ec10e419dc073, type: 3}
   m_Name: Input Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: -50, y: 250}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -706,7 +719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11415713}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections: []
   side: 4
@@ -895,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11453301}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections: []
   side: 4
@@ -969,6 +982,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03bdfc59265fe45ac36abd01b51a31, type: 3}
   m_Name: Flow Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 300, y: -50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1086,7 +1102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11418187}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Flow
   _connections:
   - {fileID: 11405058}
@@ -1319,6 +1335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f5df92d12f07d45a4fcfb96e1b36d8, type: 3}
   m_Name: Display Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 1200, y: 50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1372,6 +1391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de03bdfc59265fe45ac36abd01b51a31, type: 3}
   m_Name: Flow Node
   m_EditorClassIdentifier: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 300, y: 200}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1392,7 +1414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11470600}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11467988}
@@ -1472,7 +1494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11475207}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Flow
   _connections:
   - {fileID: 11424117}
@@ -1569,7 +1591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11475207}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11436366}
@@ -1589,7 +1611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11403645}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Flow
   _connections:
   - {fileID: 11492944}

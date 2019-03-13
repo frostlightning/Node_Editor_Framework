@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editorStates:
   - {fileID: 11482305}
-  saveName: Assets\Plugins\Node_Editor\Resources\Saves\Calculation Canvas
-  savePath: Assets\Plugins\Node_Editor\Resources\Saves\Calculation Canvas.asset
+  saveName: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Calculation Canvas
+  savePath: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Calculation Canvas.asset
   livesInScene: 0
   nodes:
   - {fileID: 11496963}
@@ -57,6 +57,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dd50b389073b148b5ec10e419dc073, type: 3}
   m_Name: Input Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: -50, y: 50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -115,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11462421}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11411772}
@@ -133,6 +137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f5df92d12f07d45a4fcfb96e1b36d8, type: 3}
   m_Name: Display Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 550, y: -50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -188,6 +196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f5df92d12f07d45a4fcfb96e1b36d8, type: 3}
   m_Name: Display Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 250, y: -150}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -205,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11411421}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11408467}
@@ -225,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11462421}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11403174}
@@ -243,6 +255,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dd50b389073b148b5ec10e419dc073, type: 3}
   m_Name: Input Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: -350, y: -50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -261,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11417989}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11403174}
@@ -279,6 +295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27a65ad2b155f0d40838ed81292e4df7, type: 3}
   m_Name: Calc Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: -50, y: -100}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -299,6 +319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27a65ad2b155f0d40838ed81292e4df7, type: 3}
   m_Name: Calc Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: 250, y: -50}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -321,7 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11462145}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11411914}
@@ -357,7 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 11462145}
   direction: 1
-  maxConnectionCount: 0
+  maxConnectionCount: 1
   styleID: Float
   _connections:
   - {fileID: 11406980}
@@ -375,6 +399,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3dd50b389073b148b5ec10e419dc073, type: 3}
   m_Name: Input Node
   m_EditorClassIdentifier: 
+  name: 
+  cond: 0
+  condName: 
+  condParam: 0
   position: {x: -350, y: -150}
   dynamicConnectionPorts: []
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}

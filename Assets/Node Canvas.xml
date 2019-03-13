@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NodeCanvas type="NodeEditorFramework.Standard.GraphCanvasType">
+	<EditorStates>
+		<EditorState selected="-694118" pan="-197.4,47.39999" zoom="0.8" />
+	</EditorStates>
+	<Groups />
+	<Nodes>
+		<Node name="图片对话框" ID="-694100" type="ChatImageNode" pos="197.9,-98.60001">
+			<Port ID="-694102" name="inputKnob" dynamic="False" />
+			<Port ID="-694104" name="outputKnob" dynamic="False" />
+			<Variable name="CharacterPotrait" refID="10294" />
+			<boolean name="isPlayer">true</boolean>
+		</Node>
+		<Node name="玩家选择框" ID="-694106" type="ChatOptionNode" pos="482.5,-85">
+			<Port ID="-694108" name="inputKnob" dynamic="False" />
+			<Port ID="-694110" name="Output" dynamic="True" type="NodeEditorFramework.ValueConnectionKnob">
+				<string name="styleID">System.String</string>
+				<Direction name="direction">Out</Direction>
+				<ConnectionCount name="maxConnectionCount">Multi</ConnectionCount>
+				<NodeSide name="side">Right</NodeSide>
+				<float name="sidePosition">104</float>
+				<float name="sideOffset">0</float>
+			</Port>
+			<Port ID="-694112" name="Output" dynamic="True" type="NodeEditorFramework.ValueConnectionKnob">
+				<string name="styleID">System.String</string>
+				<Direction name="direction">Out</Direction>
+				<ConnectionCount name="maxConnectionCount">Multi</ConnectionCount>
+				<NodeSide name="side">Right</NodeSide>
+				<float name="sidePosition">124</float>
+				<float name="sideOffset">0</float>
+			</Port>
+			<Variable name="labels" refID="-1929426944" />
+		</Node>
+		<Node name="Graph Root Node" ID="-694114" type="rootGraphNode" pos="-281,-113">
+			<Port ID="-694116" name="outputKnob" dynamic="False" />
+		</Node>
+		<Node name="NPC对话框" ID="-694118" type="ChatNode" pos="-70.3,-119.2">
+			<Port ID="-694120" name="inputKnob" dynamic="False" />
+			<Port ID="-694122" name="outputKnob" dynamic="False" />
+			<Variable name="DialogLine" refID="-1438776807" />
+			<TapType name="tapType">Fear</TapType>
+		</Node>
+	</Nodes>
+	<Connections>
+		<Connection port1ID="-694102" port2ID="-694122" />
+		<Connection port1ID="-694104" port2ID="-694108" />
+		<Connection port1ID="-694116" port2ID="-694120" />
+	</Connections>
+	<Objects>
+		<Object refID="10294" type="UnityEngine.Sprite">
+			<Sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+				<name>Lol001</name>
+				<hideFlags>NotEditable</hideFlags>
+			</Sprite>
+		</Object>
+		<Object refID="-1929426944" type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+				<string>聊天选项</string>
+				<string>聊天选项AAA</string>
+			</ArrayOfString>
+		</Object>
+		<Object refID="-1438776807" type="System.String">
+			<string>sdsdasdsdasdsadasdasdsdasa</string>
+		</Object>
+	</Objects>
+</NodeCanvas>

@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 1024.5, y: -106}
   dynamicConnectionPorts: []
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 113.100006, y: -132.6}
   dynamicConnectionPorts: []
@@ -183,6 +185,7 @@ MonoBehaviour:
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -378.5, y: -191}
   dynamicConnectionPorts: []
@@ -206,6 +209,7 @@ MonoBehaviour:
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -361.5, y: 92}
   dynamicConnectionPorts: []
@@ -288,6 +292,7 @@ MonoBehaviour:
   m_Name: Dialog Start Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -351.5, y: 391}
   dynamicConnectionPorts: []
@@ -503,6 +508,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 167.5, y: 402}
   dynamicConnectionPorts: []
@@ -586,6 +592,7 @@ MonoBehaviour:
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 193.59991, y: -728.20013}
   dynamicConnectionPorts: []
@@ -762,6 +769,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 1023.5, y: 156}
   dynamicConnectionPorts: []
@@ -786,6 +794,7 @@ MonoBehaviour:
   m_Name: Dialog with Options Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 518.5, y: -106}
   dynamicConnectionPorts:
@@ -836,6 +845,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 2078.8, y: 124.200005}
   dynamicConnectionPorts: []
@@ -1075,6 +1085,7 @@ MonoBehaviour:
   m_Name: Example Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 654.69995, y: -1152.8002}
   dynamicConnectionPorts: []
@@ -1093,6 +1104,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 2077.6, y: 397.80002}
   dynamicConnectionPorts: []
@@ -1256,6 +1268,7 @@ MonoBehaviour:
   m_Name: Resizing Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -212.70004, y: -1126.2001}
   dynamicConnectionPorts:
@@ -1282,6 +1295,7 @@ MonoBehaviour:
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 78.599945, y: -1153.4001}
   dynamicConnectionPorts: []
@@ -1301,6 +1315,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 2612.8, y: 164.99998}
   dynamicConnectionPorts: []
@@ -1503,6 +1518,7 @@ MonoBehaviour:
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 403.4999, y: -955.40015}
   dynamicConnectionPorts: []
@@ -1542,6 +1558,7 @@ MonoBehaviour:
   m_Name: Chat Node Base
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -130.00003, y: -720.0002}
   dynamicConnectionPorts: []
@@ -1600,6 +1617,7 @@ MonoBehaviour:
   m_Name: Dialog with Options Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: -117.10007, y: -483.80017}
   dynamicConnectionPorts:
@@ -1684,6 +1702,7 @@ MonoBehaviour:
   m_Name: Nulti Path Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 1509.6, y: -82.9}
   dynamicConnectionPorts:
@@ -1719,6 +1738,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 1029.5, y: 411.5}
   dynamicConnectionPorts: []
@@ -1743,6 +1763,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 98.5, y: 109}
   dynamicConnectionPorts: []
@@ -1884,6 +1905,7 @@ MonoBehaviour:
   m_Name: Dialog Node
   m_EditorClassIdentifier: 
   cond: 0
+  condParam: 0
   tapType: 0
   position: {x: 2075.2002, y: -135}
   dynamicConnectionPorts: []

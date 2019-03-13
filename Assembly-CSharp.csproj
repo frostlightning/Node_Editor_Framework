@@ -51,7 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ChatNodeBase.cs" />
+     <Compile Include="Assets\ChatLoader.cs" />
+     <Compile Include="Assets\ChatSimpleNode.cs" />
+     <Compile Include="Assets\JsonObject.cs" />
+     <Compile Include="Assets\MyNode\ChatImageNode.cs" />
+     <Compile Include="Assets\MyNode\ChatNode.cs" />
+     <Compile Include="Assets\MyNode\ChatOptionNode.cs" />
+     <Compile Include="Assets\MyNode\RootGraphNode.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Default\Calculation Base\CalculationCanvasType.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Default\Calculation Base\CanvasCalculator.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Default\Calculation Base\FloatCalculation.cs" />
@@ -87,8 +94,6 @@
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\AllAroundNode.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\ExampleNode.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\FlowNode.cs" />
-     <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\ResizingNode.cs" />
-     <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\RootGraphNode.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\FloatCalc\CalcNode.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\FloatCalc\DisplayNode.cs" />
      <Compile Include="Assets\Node_Editor_Framework\Node_Editor\Nodes\FloatCalc\InputNode.cs" />
@@ -113,6 +118,7 @@
      <Compile Include="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Source\MessageBox\OptionsHandler.cs" />
      <Compile Include="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Source\Testing\TestScripts.cs" />
      <None Include="Assets\Node_Editor_Framework\Node_Editor\Resources\Shader\LineShader.shader" />
+     <None Include="Assets\Node Canvas.xml" />
      <None Include="Assets\Node_Editor_Framework\Node_Editor\Utilities\link.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -149,6 +155,9 @@
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/GitHub/Node_Editor_Framework/Assets/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

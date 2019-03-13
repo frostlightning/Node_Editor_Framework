@@ -3,29 +3,26 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine.Serialization;
 namespace NodeEditorFramework
 {
 	public abstract partial class Node : ScriptableObject
 	{
 		public enum Cond
 		{
-			None,
 			Instance,
 			WaitSeconds,
 			WaitMinutes,
-			ControlByTask,
+			ControlByVar,
 		}
-		public enum TapType
-		{
-			None,
-			Continus,
-			UnContinus,
-			Fear,
-			Last,
-		}
+		[FormerlySerializedAs("Name")]
+		public string name;
+		[FormerlySerializedAs("Comd")]
 		public Cond cond;
+		[FormerlySerializedAs("ConaName")]
+		public string condName;
+		[FormerlySerializedAs("CondParam")]
 		public int condParam;
-		public TapType tapType;
 		public Vector2 position;
 		private Vector2 autoSize;
 		public Vector2 size { get { return AutoLayout? autoSize : DefaultSize; } }
@@ -315,10 +312,28 @@ namespace NodeEditorFramework
 				DeleteAllPorts ();
 			}
 			GUILayout.BeginHorizontal ();
-			cond = (Cond)EditorGUILayout.EnumPopup (cond);
-			condParam = EditorGUILayout.IntField (condParam);
+			GUILayout.Label ("姓名");
+			name = EditorGUILayout.TextField (name);
 			GUILayout.EndHorizontal ();
-			tapType = (TapType)EditorGUILayout.EnumPopup (tapType);
+			GUILayout.BeginHorizontal ();
+			GUILayout.BeginVertical ();
+			GUILayout.Label ("执行条件");
+			cond = (Cond)EditorGUILayout.EnumPopup (cond);
+			GUILayout.EndVertical ();
+			if (cond == Cond.ControlByVar) {
+				GUILayout.BeginVertical ();
+				GUILayout.Label ("变量名称");
+				condName = EditorGUILayout.TextField (condName);
+				GUILayout.EndVertical ();
+			}
+			if (cond != Cond.Instance) {
+				GUILayout.BeginVertical ();
+				GUILayout.Label ("参数");
+				condParam = EditorGUILayout.IntField (condParam);
+				GUILayout.EndVertical ();
+			}
+			GUILayout.EndHorizontal ();
+
 			NodeGUI ();
 
 			if(Event.current.type == EventType.Repaint)
@@ -623,6 +638,12 @@ namespace NodeEditorFramework
 			for (int i = 0; i < connectionPorts.Count; i++) {
 				connectionPorts[i].ClearConnections (true);
 			}
+		}
+		public virtual Node GetLast (){
+			return null;
+		}
+		public virtual Node GetNext (){
+			return null;
 		}
 		#endregion
 	}

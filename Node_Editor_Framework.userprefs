@@ -1,6 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\RootGraphNode.cs">
+    <Files>
+      <File FileName="Assets\ChatLoader.cs" Line="7" Column="32" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\NodeCanvas.cs" Line="11" Column="31" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\RootGraphNode.cs" Line="11" Column="3" />
+      <File FileName="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Source\Manager\DialogManager.cs" Line="103" Column="62" />
+      <File FileName="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Core\Canvas\DialogNodeCanvas.cs" Line="14" Column="2" />
+      <File FileName="Assets\ChatSimpleNode.cs" Line="13" Column="46" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Default\IO Formats\XMLImportExport.cs" Line="87" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
