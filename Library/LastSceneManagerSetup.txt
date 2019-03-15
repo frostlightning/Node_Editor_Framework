@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Node_Editor_Framework-Examples-Dialogue-System/ExampleDialogSystem/_Scene/BaseScene.unity
+  isLoaded: 1
+  isActive: 1

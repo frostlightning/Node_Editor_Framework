@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\RootGraphNode.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\ValueConnectionKnob.cs">
     <Files>
-      <File FileName="Assets\ChatLoader.cs" Line="7" Column="32" />
-      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\NodeCanvas.cs" Line="11" Column="31" />
-      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\RootGraphNode.cs" Line="11" Column="3" />
-      <File FileName="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Source\Manager\DialogManager.cs" Line="103" Column="62" />
-      <File FileName="Assets\Node_Editor_Framework-Examples-Dialogue-System\ExampleDialogSystem\Core\Canvas\DialogNodeCanvas.cs" Line="14" Column="2" />
-      <File FileName="Assets\ChatSimpleNode.cs" Line="13" Column="46" />
-      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Default\IO Formats\XMLImportExport.cs" Line="87" Column="7" />
+      <File FileName="Assets\MyNode\ChatImageNode.cs" Line="60" Column="16" />
+      <File FileName="Assets\MyNode\ChatOptionNode.cs" Line="63" Column="42" />
+      <File FileName="Assets\MyNode\ChatNode.cs" Line="76" Column="33" />
+      <File FileName="Assets\MyNode\RootGraphNode.cs" Line="28" Column="4" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\Node.cs" Line="1" Column="1" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\ConnectionPort.cs" Line="1" Column="1" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Nodes\Example\AllAroundNode.cs" Line="1" Column="1" />
+      <File FileName="Assets\Node_Editor_Framework\Node_Editor\Framework\Core\ValueConnectionKnob.cs" Line="207" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -60,6 +60,8 @@ namespace NodeEditorFramework.Standard
 		}
 		public override Node GetNext ()
 		{
+			if (dynamicConnectionPorts.Count == 0)
+				return null;
 			return dynamicConnectionPorts[GetOptionID()].body;
 		}
 		int GetOptionID()

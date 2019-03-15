@@ -75,6 +75,8 @@ public class ChatNode : Node
 	}
 	public override Node GetNext ()
 	{
+		if (outputKnob.connections.Count == 0)
+			return null;
 		return outputKnob.connections [0].body;
 	}
 }
